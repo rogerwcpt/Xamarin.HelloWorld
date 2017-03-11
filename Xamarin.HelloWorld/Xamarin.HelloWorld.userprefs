@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{19A7BF0A-1B51-4A4A-82D3-FC6ED25FF860}|Default">
+  <MonoDevelop.Ide.ItemProperties.Xamarin.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B04570AD-A011-45C0-97B4-647C4B3B20A2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.HelloWorld Status">
+    <Files>
+      <File FileName="Xamarin.HelloWorld Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Xamarin.HelloWorld.Droid PreferredExecutionTarget="Android.SelectDevice" />
+</Properties>
