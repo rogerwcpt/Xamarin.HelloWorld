@@ -22,7 +22,7 @@ namespace Xamarin.HelloWorld.iOS
 		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
 
-			MobileCenter.Start("c8130d6e-bd7f-4fb3-946f-db55a4645428", typeof(Analytics), typeof(Crashes));
+			//MobileCenter.Start("c8130d6e-bd7f-4fb3-946f-db55a4645428", typeof(Analytics), typeof(Crashes));
 
 			Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
