@@ -2,6 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.Xamarin.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B04570AD-A011-45C0-97B4-647C4B3B20A2" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.HelloWorld Status">
     <Files>
+      <File FileName="Xamarin.HelloWorld.iOS/AppDelegate.cs" Line="26" Column="4" />
       <File FileName="Xamarin.HelloWorld Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

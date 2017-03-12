@@ -1,6 +1,10 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.Platform;
+
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 using Foundation;
 using UIKit;
 
@@ -15,8 +19,11 @@ namespace Xamarin.HelloWorld.iOS
 			set;
 		}
 
-		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+		public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
 		{
+
+			MobileCenter.Start("c8130d6e-bd7f-4fb3-946f-db55a4645428", typeof(Analytics), typeof(Crashes));
+
 			Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
 			var setup = new Setup(this, Window);
